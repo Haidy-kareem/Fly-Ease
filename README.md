@@ -1,8 +1,8 @@
-## FlyEase — Flight Booking System
+## FlyEase - Flight Booking System
 
 SkyBook is a desktop flight booking and management system written in Java. It's built around a complete object-oriented domain model — users, flights, bookings, passengers, and payments — backed by file-based persistence, with a custom-built Swing interface.
 
-It supports three roles — **Customer**, **Agent**, and **Administrator** — each with their own permissions, covering the full booking lifecycle from search to payment to cancellation.
+It supports three roles - **Customer**, **Agent**, and **Administrator** - each with their own permissions, covering the full booking lifecycle from search to payment to cancellation.
 
 ### Features
 
@@ -16,9 +16,9 @@ It supports three roles — **Customer**, **Agent**, and **Administrator** — e
 ### Architecture
 
 - **Domain model**: `User` (abstract) → `Customer`, `Agent`, `Administrator` | `Flight` → `DomesticFlight`, `InternationalFlight` | `Booking`, `Passenger`, `Payment`
-- **`BookingSystem`** — core business logic / service layer used by every role
-- **`FileManager`** — handles reading/writing all data to text files
-- **`Gui` / `UI` / `Icons`** — custom dark-themed Swing interface, including a hand-drawn vector icon library (no external image assets or icon packs)
+- **`BookingSystem`** - core business logic / service layer used by every role
+- **`FileManager`** - handles reading/writing all data to text files
+- **`Gui` / `UI` / `Icons`** - custom dark-themed Swing interface, including a hand-drawn vector icon library (no external image assets or icon packs)
 
 ### Getting Started
 
