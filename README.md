@@ -31,13 +31,6 @@ chmod +x run.sh
 
 Requires Java JDK 17+.
 
-#### Test accounts (preloaded)
-
-| Username   | Password    | Role          |
-|------------|-------------|---------------|
-| testCust1  | Password123 | Customer      |
-| admin      | Admin123    | Administrator |
-| agent1     | Agent123    | Agent         |
 
 ### Built With
 
